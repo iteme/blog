@@ -1,0 +1,11 @@
+.vscode
+.idea
+logs
+*.log
+node_modules
+.DS_Store
+dist
+yarn.*
+package-lock.*
+pnpm-lock.*
+*.zip

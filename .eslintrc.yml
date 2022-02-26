@@ -1,0 +1,22 @@
+env:
+  browser: true
+  es2021: true
+parser: 'vue-eslint-parser'
+parserOptions:
+  ecmaVersion: 'latest'
+  ecmaFeatures:
+    jsx: true
+  parser: '@typescript-eslint/parser'
+  sourceType: 'module'
+plugins:
+  - 'vue'
+  - '@typescript-eslint'
+extends:
+  - 'vue-global-api'
+  - 'eslint:recommended'
+  - 'plugin:vue/vue3-recommended'
+  - 'plugin:@typescript-eslint/recommended'
+  - 'plugin:prettier/recommended'
+rules:
+  '@typescript-eslint/no-explicit-any': off
+  'vue/multi-word-component-names': off
