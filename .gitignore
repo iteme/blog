@@ -4,6 +4,8 @@ logs
 *.log
 node_modules
 .DS_Store
+.vite-ssg-dist
+.vite-ssg-temp
 dist
 yarn.*
 package-lock.*

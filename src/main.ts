@@ -1,10 +1,11 @@
 import { ViteSSG } from 'vite-ssg';
-import { createHead } from '@vueuse/head';
+import generatedRoutes from 'virtual:generated-pages';
+import { setupLayouts } from 'virtual:generated-layouts';
+import App from '@/App.vue';
 import 'vue-global-api';
 import 'virtual:windi.css';
-import App from '@/App.vue';
-import { routes } from '@/router';
+import '@/assets/styles/main.css';
 
-export const createApp = ViteSSG(App, { routes }, ({ app }) => {
-  app.use(createHead());
-});
+const routes = setupLayouts(generatedRoutes);
+
+export const createApp = ViteSSG(App, { routes });

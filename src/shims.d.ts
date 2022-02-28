@@ -3,6 +3,8 @@ declare module '*.vue' {
   const Component: ReturnType<typeof defineComponent>;
   export default Component;
 }
-
-declare module '*.png';
-declare module '*.jpg';
+declare module '*.md' {
+  import { defineComponent } from 'vue';
+  const Component: ReturnType<typeof defineComponent>;
+  export default Component;
+}
