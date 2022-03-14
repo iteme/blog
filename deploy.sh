@@ -1,11 +1,11 @@
 #!/bin/sh
 
-HTML_DIR=/root/caddy/site
+HTML_DIR=/app/nginx/html
 
 pnpm build
 zip -r dist.zip ./dist/*
 
-scp dist.zip root@rite.me:$HTML_DIR/dist.zip
-ssh root@rite.me "cd $HTML_DIR; unzip $HTML_DIR/dist.zip; rm -rf riteme; mv dist riteme; rm -f dist.zip"
+scp dist.zip root@$1:$HTML_DIR/dist.zip
+ssh root@$1 "cd $HTML_DIR; unzip $HTML_DIR/dist.zip; rm -rf riteme; mv dist riteme; rm -f dist.zip; docker restart nginx"
 
 rm -rf ./dist dist.zip
