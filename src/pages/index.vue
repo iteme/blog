@@ -1,17 +1,10 @@
 <template>
-  <section class="bg-home text-white min-h-100vh">
-    <nav-bar />
-    <h1 class="font-bold text-center pt-50 text-3xl">从明天起，做一个幸福的人</h1>
+  <section class="bg-home flex h-100vh items-center justify-center">
+    <div class="font-bold text-white scale-up-top text-3xl">从明天起，做一个幸福的人</div>
   </section>
 </template>
 
-<route lang="yaml">
-meta:
-  layout: blank
-</route>
-
 <script lang="ts" setup>
-  import NavBar from '@/components/NavBar.vue';
   import { useHead } from '@vueuse/head';
   useHead({
     title: '一日三饭',

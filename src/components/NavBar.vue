@@ -1,12 +1,14 @@
 <template>
-  <nav id="navbar" class="text-center w-full">
+  <nav id="navbar" class="bg-[#266a83] text-center text-white w-full z-10 fixed">
     <div
-      class="flex flex-col mx-auto max-w-screen-xl py-2 px-8 lg:flex-row lg:items-center lg:justify-between"
+      class="flex flex-col mx-auto max-w-screen-xl px-8 lg:flex-row lg:items-center lg:justify-between"
     >
       <div class="flex flex-col space-x-4 items-center lg:flex-row xl:space-x-8">
         <div class="flex flex-row w-full py-6 items-center justify-between">
           <div class="w-40">
-            <a href="/" class="font-bold text-2xl"> 一日三饭 </a>
+            <a href="/">
+              <img src="@/assets/svg/logo.svg" alt="" class="h-6" />
+            </a>
           </div>
           <button class="lg:hidden focus:outline-none focus:shadow-outline" @click="open = !open">
             <img src="@/assets/svg/menu.svg" class="h-8" />
@@ -17,7 +19,7 @@
           class="flex flex-col flex-grow h-auto space-y-3 w-full origin-top pb-4 duration-300 lg:flex-row lg:space-y-0 lg:pb-0 lg:items-center lg:justify-end xl:space-x-2"
         >
           <li v-for="item in menus" :key="item.name" class="w-full whitespace-nowrap">
-            <a class="bg-transparent text-lg py-2 md:px-4" :href="item.href">
+            <a class="bg-transparent text-lg py-2 px-4" :href="item.href">
               {{ item.name }}
             </a>
           </li>
@@ -30,5 +32,5 @@
 <script lang="ts" setup>
   const open = ref(false);
 
-  const menus = [{ name: '首页', href: '/' }];
+  const menus = [{ name: '导航', href: '/nav' }];
 </script>
