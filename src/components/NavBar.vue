@@ -1,9 +1,9 @@
 <template>
-  <nav id="navbar" class="bg-[#266a83] text-center text-white w-full z-10 fixed">
+  <nav id="navbar" class="bg-[#266a83] h-20 text-center text-white w-full">
     <div
       class="flex flex-col mx-auto max-w-screen-xl px-8 lg:flex-row lg:items-center lg:justify-between"
     >
-      <div class="flex flex-col space-x-4 items-center lg:flex-row xl:space-x-8">
+      <div class="flex flex-col items-center lg:flex-row xl:space-x-8">
         <div class="flex flex-row w-full py-6 items-center justify-between">
           <div class="w-40">
             <a href="/">
@@ -16,7 +16,7 @@
         </div>
         <ul
           :class="open ? 'flex' : 'hidden lg:flex'"
-          class="flex flex-col flex-grow h-auto space-y-3 w-full origin-top pb-4 duration-300 lg:flex-row lg:space-y-0 lg:pb-0 lg:items-center lg:justify-end xl:space-x-2"
+          class="flex flex-col h-auto space-y-3 bg-[#266a83] origin-top pb-4 w-100vw duration-300 lg:flex-row lg:space-y-0 lg:w-full lg:pb-0 lg:items-center"
         >
           <li v-for="item in menus" :key="item.name" class="w-full whitespace-nowrap">
             <a class="bg-transparent text-lg py-2 px-4" :href="item.href">

@@ -4,9 +4,10 @@ import Vue from '@vitejs/plugin-vue';
 import WindiCSS from 'vite-plugin-windicss';
 import Pages from 'vite-plugin-pages';
 import Layouts from 'vite-plugin-vue-layouts';
-import Prism from 'markdown-it-prism';
-import LinkAttributes from 'markdown-it-link-attributes';
 import Markdown from 'vite-plugin-md';
+import markdownitPrism from 'markdown-it-prism';
+import markdownitAnchor from 'markdown-it-anchor';
+import LinkAttributes from 'markdown-it-link-attributes';
 
 export default defineConfig({
   server: {
@@ -30,7 +31,8 @@ export default defineConfig({
     Markdown({
       headEnabled: true,
       markdownItSetup(md) {
-        md.use(Prism);
+        md.use(markdownitPrism);
+        md.use(markdownitAnchor, { permalink: true, permalinkBefore: true, permalinkSymbol: '#' });
         md.use(LinkAttributes, {
           matcher: (link: string) => /^https?:\/\//.test(link),
           attrs: {
