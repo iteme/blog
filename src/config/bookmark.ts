@@ -71,7 +71,11 @@ export default [
         url: 'https://cokemv.me',
         logo: 'https://cokemv.me/upload/mxprocms/20221009-1/303f8b904c8401f09153ac65058bad93.png',
       },
-      { name: 'cmacked', url: 'https://cmacked.com', logo: 'https://cmacked.com/favicon.ico' },
+      {
+        name: 'cmacked',
+        url: 'https://cmacked.com',
+        logo: 'https://cmacked.com/wp-content/uploads/fbrfg/favicon.ico',
+      },
       {
         name: 'torrentmac',
         url: 'https://torrentmac.net',
