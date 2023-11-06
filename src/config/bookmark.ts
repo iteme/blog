@@ -31,24 +31,93 @@ export default [
     ],
   },
   {
-    title: '常用',
+    title: '摄影',
     items: [
-      { name: 'github', url: 'https://github.com', logo: 'https://github.com/favicon.ico' },
+      { name: 'cnu', url: 'http://cnu.cc', logo: 'http://imgoss.cnu.cc/assets/images/favicon.ico' },
       {
-        name: 'gmail',
-        url: 'https://mail.google.com',
-        logo: 'https://ssl.gstatic.com/ui/v1/icons/mail/rfr/gmail.ico',
+        name: 'pinterest',
+        url: 'https://www.pinterest.com',
+        logo: 'https://s.pinimg.com/images/favicon_red_192.png',
       },
       {
-        name: 'hustmail',
-        url: 'http://mail.alumni.hust.edu.cn',
-        logo: 'http://mail.alumni.hust.edu.cn/favicon.ico',
+        name: 'instagram',
+        url: 'https://www.instagram.com',
+        logo: 'https://static.cdninstagram.com/rsrc.php/v3/yI/r/VsNE-OHk_8a.png',
+      },
+      {
+        name: 'wallhaven',
+        url: 'https://wallhaven.cc',
+        logo: 'https://wallhaven.cc/favicon.ico',
+      },
+      { name: 'pixabay', url: 'https://pixabay.com', logo: 'https://pixabay.com/favicon.ico' },
+      {
+        name: 'freepik',
+        url: 'https://www.freepik.com',
+        logo: 'https://fps.cdnpk.net/favicons/favicon.ico',
+      },
+    ],
+  },
+  {
+    title: '资源',
+    items: [
+      {
+        name: 'alipan',
+        url: 'https://www.pan666.net',
+        logo: 'https://www.pan666.net/favicon.ico',
+      },
+      { name: 'btnull', url: 'https://btnull.org', logo: 'https://btnull.org/favicon.ico' },
+      {
+        name: 'cokemv',
+        url: 'https://cokemv.me',
+        logo: 'https://cokemv.me/upload/mxprocms/20221009-1/303f8b904c8401f09153ac65058bad93.png',
+      },
+      { name: 'cmacked', url: 'https://cmacked.com', logo: 'https://cmacked.com/favicon.ico' },
+      {
+        name: 'torrentmac',
+        url: 'https://torrentmac.net',
+        logo: 'https://torrentmac.net/favicon.ico',
+      },
+      {
+        name: 'appstorrent',
+        url: 'https://appstorrent.ru',
+        logo: 'https://appstorrent.ru/templates/appstorrent-23cb5a424b/assets/img/og/favicon.ico',
+      },
+    ],
+  },
+  {
+    title: 'AI',
+    items: [
+      {
+        name: 'aibot',
+        url: 'https://ai-bot.cn',
+        logo: 'https://ai-bot.cn/wp-content/uploads/2023/04/ai-bot-baidu-logo.png',
+      },
+      {
+        name: 'civitai',
+        url: 'https://civitai.com',
+        logo: 'https://civitai.com/favicon.ico',
+      },
+      {
+        name: 'hugging',
+        url: 'https://huggingface.co/models',
+        logo: 'https://huggingface.co/favicon.ico',
+      },
+      {
+        name: 'arthub',
+        url: 'https://arthub.ai',
+        logo: 'https://arthub.ai/favicon.ico',
+      },
+      {
+        name: 'ideogram',
+        url: 'https://ideogram.ai',
+        logo: 'https://ideogram.ai/favicon.png',
       },
     ],
   },
   {
     title: '程序员',
     items: [
+      { name: 'github', url: 'https://github.com', logo: 'https://github.com/favicon.ico' },
       {
         name: 'maven',
         url: 'https://search.maven.org',
@@ -59,7 +128,6 @@ export default [
         url: 'https://npmjs.com',
         logo: 'https://static.npmjs.com/b0f1a8318363185cc2ea6a40ac23eeb2.png',
       },
-      { name: 'uirush', url: 'https://uirush.com', logo: 'https://uirush.com/favicon.ico' },
       {
         name: 'visualgo',
         url: 'https://visualgo.net/zh',
@@ -73,6 +141,11 @@ export default [
       { name: 'json', url: 'https://json.cn', logo: 'https://www.json.cn/favicon.ico' },
       { name: 'animista', url: 'https://animista.net', logo: 'https://animista.net/favicon.ico' },
       {
+        name: 'lottie',
+        url: 'https://lottiefiles.com',
+        logo: 'https://static.lottiefiles.com/favicons-new/favicon-96x96.png',
+      },
+      {
         name: 'html',
         url: 'https://htmlreference.io',
         logo: 'https://htmlreference.io/favicons/favicon-32x32.png',
@@ -85,16 +158,13 @@ export default [
     ],
   },
   {
-    title: '摄影',
-    items: [
-      { name: 'cnu', url: 'http://cnu.cc', logo: 'http://imgoss.cnu.cc/assets/images/favicon.ico' },
-      { name: 'coofilm', url: 'https://coofilm.com', logo: 'https://coofilm.com/favicon.ico' },
-      { name: 'letsfilm', url: 'http://letsfilm.org', logo: 'http://letsfilm.org/favicon.ico' },
-    ],
-  },
-  {
     title: '工具',
     items: [
+      {
+        name: 'gaituya',
+        url: 'https://www.gaituya.com',
+        logo: 'https://www.gaituya.com/favicon.ico',
+      },
       {
         name: 'convertio',
         url: 'https://convertio.co/zh',
@@ -105,36 +175,21 @@ export default [
         url: 'https://www.vectorizer.io',
         logo: 'https://www.vectorizer.io/favicon.ico',
       },
-      { name: 'tempmail', url: 'https://mail.td', logo: 'https://mail.td/favicon.ico' },
+      { name: 'tempmail', url: 'https://mail.td', logo: 'https://mail.td/favicon.png' },
       {
         name: 'qqxiuzi',
         url: 'https://qqxiuzi.cn/zh/pinyin',
         logo: 'https://qqxiuzi.cn/favicon.ico',
       },
-    ],
-  },
-  {
-    title: '资源',
-    items: [
-      { name: 'u1lib', url: 'https://u1lib.org', logo: 'https://u1lib.org/favicon.ico' },
       {
-        name: 'wallhaven',
-        url: 'https://wallhaven.cc',
-        logo: 'https://wallhaven.cc/favicon.ico',
+        name: 'wenshushu',
+        url: 'https://www.wenshushu.cn',
+        logo: 'https://www.wenshushu.cn/favicon.ico',
       },
-      { name: 'pixabay', url: 'https://pixabay.com', logo: 'https://pixabay.com/favicon.ico' },
-      { name: 'freepik', url: 'https://freepik.com', logo: 'https://freepik.com/favicon.ico' },
-      { name: 'btnull', url: 'https://btnull.org', logo: 'https://btnull.org/favicon.ico' },
       {
-        name: 'cokemv',
-        url: 'https://cokemv.me',
-        logo: 'https://cokemv.me/template/mytheme/statics/image/20201201/932acffd1.ico',
-      },
-      { name: 'cmacked', url: 'https://cmacked.com', logo: 'https://cmacked.com/favicon.ico' },
-      {
-        name: 'torrentmac',
-        url: 'https://torrentmac.net',
-        logo: 'https://torrentmac.net/favicon.ico',
+        name: 'hustmail',
+        url: 'http://mail.alumni.hust.edu.cn',
+        logo: 'http://mail.alumni.hust.edu.cn/favicon.ico',
       },
     ],
   },
