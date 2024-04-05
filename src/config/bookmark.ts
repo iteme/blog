@@ -68,8 +68,8 @@ export default [
       { name: 'btnull', url: 'https://btnull.org', logo: 'https://btnull.org/favicon.ico' },
       {
         name: 'cokemv',
-        url: 'https://cokemv.me',
-        logo: 'https://cokemv.me/upload/mxprocms/20221009-1/303f8b904c8401f09153ac65058bad93.png',
+        url: 'https://cokemv.fun',
+        logo: 'https://cokemv.fun/favicon.ico',
       },
       {
         name: 'cmacked',
@@ -84,13 +84,18 @@ export default [
       {
         name: 'appstorrent',
         url: 'https://appstorrent.ru',
-        logo: 'https://appstorrent.ru/templates/appstorrent-23cb5a424b/assets/img/og/favicon.ico',
+        logo: '',
       },
     ],
   },
   {
     title: 'AI',
     items: [
+      {
+        name: 'chatgpt',
+        url: 'https://chat.openai.com/',
+        logo: 'https://chat.openai.com/favicon.ico',
+      },
       {
         name: 'aibot',
         url: 'https://ai-bot.cn',
@@ -112,9 +117,19 @@ export default [
         logo: 'https://arthub.ai/favicon.ico',
       },
       {
+        name: 'openart',
+        url: 'https://openart.ai',
+        logo: 'https://openart.ai/favicon/favicon.ico',
+      },
+      {
         name: 'ideogram',
         url: 'https://ideogram.ai',
         logo: 'https://ideogram.ai/favicon.png',
+      },
+      {
+        name: 'riffusion',
+        url: 'https://www.riffusion.com/',
+        logo: 'https://www.riffusion.com/favicon.ico',
       },
     ],
   },
@@ -142,7 +157,11 @@ export default [
         url: 'https://app.quicktype.io',
         logo: 'https://app.quicktype.io/favicon-32.png',
       },
-      { name: 'json', url: 'https://json.cn', logo: 'https://www.json.cn/favicon.ico' },
+      {
+        name: 'json',
+        url: 'https://json.cn',
+        logo: 'https://www.json.cn/r/img/favicon/favicon.ico',
+      },
       { name: 'animista', url: 'https://animista.net', logo: 'https://animista.net/favicon.ico' },
       {
         name: 'lottie',
@@ -158,6 +177,21 @@ export default [
         name: 'css',
         url: 'https://cssreference.io',
         logo: 'https://cssreference.io/favicons/favicon-32x32.png',
+      },
+      {
+        name: 'picsum',
+        url: 'https://picsum.photos',
+        logo: 'https://picsum.photos/assets/images/favicon/favicon-32x32.png',
+      },
+      {
+        name: 'haikei',
+        url: 'https://app.haikei.app/',
+        logo: '',
+      },
+      {
+        name: 'material',
+        url: 'https://material-foundation.github.io/material-theme-builder',
+        logo: '',
       },
     ],
   },
