@@ -4,13 +4,18 @@ export default [
     items: [
       {
         name: 'cloudcone',
-        url: 'https://app.cloudcone.com.cn/?ref=1677',
-        logo: 'https://app.cloudcone.com.cn/assets/img/logo.png',
+        url: 'https://cloudcone.com/?ref=1677',
+        logo: 'https://cloudcone.com/favicon.ico',
       },
       {
         name: 'dynadot',
         url: 'https://dynadot.com?s6K8T7U9FV7aP6t',
         logo: 'https://dynadot.com/favicon.ico',
+      },
+      {
+        name: 'cloudflare',
+        url: 'https://www.cloudflare.com',
+        logo: 'https://www.cloudflare.com/favicon.ico',
       },
       {
         name: 'freenom',
@@ -23,11 +28,6 @@ export default [
         logo: 'https://app.netlify.com/favicon-32x32.png',
       },
       { name: 'jsdelivr', url: 'https://jsdelivr.com', logo: 'https://jsdelivr.com/favicon.ico' },
-      {
-        name: 'leancloud',
-        url: 'https://leancloud.cn',
-        logo: 'https://leancloud.cn/favicon.ico',
-      },
     ],
   },
   {
@@ -58,48 +58,27 @@ export default [
     ],
   },
   {
-    title: '资源',
-    items: [
-      {
-        name: 'alipan',
-        url: 'https://www.pan666.net',
-        logo: 'https://www.pan666.net/favicon.ico',
-      },
-      { name: 'btnull', url: 'https://btnull.org', logo: 'https://btnull.org/favicon.ico' },
-      {
-        name: 'cokemv',
-        url: 'https://cokemv.fun',
-        logo: 'https://cokemv.fun/favicon.ico',
-      },
-      {
-        name: 'cmacked',
-        url: 'https://cmacked.com',
-        logo: 'https://cmacked.com/wp-content/uploads/fbrfg/favicon.ico',
-      },
-      {
-        name: 'torrentmac',
-        url: 'https://torrentmac.net',
-        logo: 'https://torrentmac.net/favicon.ico',
-      },
-      {
-        name: 'appstorrent',
-        url: 'https://appstorrent.ru',
-        logo: '',
-      },
-    ],
-  },
-  {
     title: 'AI',
     items: [
+      {
+        name: 'deepseek',
+        url: 'https://chat.deepseek.com/',
+        logo: 'https://cdn.deepseek.com/chat/icon.png',
+      },
       {
         name: 'chatgpt',
         url: 'https://chat.openai.com/',
         logo: 'https://chat.openai.com/favicon.ico',
       },
       {
-        name: 'aibot',
-        url: 'https://ai-bot.cn',
-        logo: 'https://ai-bot.cn/wp-content/uploads/2023/04/ai-bot-baidu-logo.png',
+        name: 'claude',
+        url: 'https://claude.ai/',
+        logo: 'https://claude.ai/images/claude_app_icon.png',
+      },
+      {
+        name: 'hugging',
+        url: 'https://huggingface.co/models',
+        logo: 'https://huggingface.co/favicon.ico',
       },
       {
         name: 'civitai',
@@ -107,9 +86,9 @@ export default [
         logo: 'https://civitai.com/favicon.ico',
       },
       {
-        name: 'hugging',
-        url: 'https://huggingface.co/models',
-        logo: 'https://huggingface.co/favicon.ico',
+        name: 'aibot',
+        url: 'https://ai-bot.cn',
+        logo: 'https://ai-bot.cn/wp-content/uploads/2023/04/ai-bot-baidu-logo.png',
       },
       {
         name: 'arthub',
@@ -134,23 +113,54 @@ export default [
     ],
   },
   {
+    title: '资源',
+    items: [
+      {
+        name: 'alipan',
+        url: 'https://www.pan666.net',
+        logo: 'https://www.pan666.net/favicon.ico',
+      },
+      { name: 'btnull', url: 'https://btnull.org', logo: 'https://btnull.org/favicon.ico' },
+      {
+        name: 'cmacked',
+        url: 'https://cmacked.com',
+        logo: 'https://cmacked.com/wp-content/uploads/fbrfg/favicon.ico',
+      },
+      {
+        name: 'torrentmac',
+        url: 'https://torrentmac.net',
+        logo: 'https://torrentmac.net/favicon.ico',
+      },
+      {
+        name: 'appstorrent',
+        url: 'https://appstorrent.ru',
+        logo: '',
+      },
+      {
+        name: 'zlibrary',
+        url: 'https://z-library.sk/',
+        logo: 'https://z-library.sk/favicon.svg',
+      },
+      {
+        name: 'banzou',
+        url: 'https://www.ban-zou.com/',
+        logo: 'https://www.ban-zou.com/favicon.ico',
+      },
+      {
+        name: 'aigei',
+        url: 'https://www.aigei.com/',
+        logo: 'https://cdn-sqn.aigei.com/assets/site/img/icon/favicon.ico',
+      },
+    ],
+  },
+  {
     title: '程序员',
     items: [
       { name: 'github', url: 'https://github.com', logo: 'https://github.com/favicon.ico' },
       {
-        name: 'maven',
-        url: 'https://search.maven.org',
-        logo: 'https://search.maven.org/favicon.ico',
-      },
-      {
-        name: 'npmjs',
-        url: 'https://npmjs.com',
-        logo: 'https://static.npmjs.com/b0f1a8318363185cc2ea6a40ac23eeb2.png',
-      },
-      {
-        name: 'visualgo',
-        url: 'https://visualgo.net/zh',
-        logo: 'https://visualgo.net/img/favicon.png',
+        name: 'docker',
+        url: 'https://hub.docker.com/',
+        logo: 'https://hub.docker.com/favicon.ico',
       },
       {
         name: 'quicktype',
@@ -162,12 +172,32 @@ export default [
         url: 'https://json.cn',
         logo: 'https://www.json.cn/r/img/favicon/favicon.ico',
       },
-      { name: 'animista', url: 'https://animista.net', logo: 'https://animista.net/favicon.ico' },
+      {
+        name: 'maven',
+        url: 'https://search.maven.org',
+        logo: 'https://search.maven.org/favicon.ico',
+      },
+      {
+        name: 'npmjs',
+        url: 'https://npmjs.com',
+        logo: 'https://static.npmjs.com/b0f1a8318363185cc2ea6a40ac23eeb2.png',
+      },
       {
         name: 'lottie',
         url: 'https://lottiefiles.com',
         logo: 'https://static.lottiefiles.com/favicons-new/favicon-96x96.png',
       },
+      {
+        name: 'picsum',
+        url: 'https://picsum.photos',
+        logo: 'https://picsum.photos/assets/images/favicon/favicon-32x32.png',
+      },
+      {
+        name: 'visualgo',
+        url: 'https://visualgo.net/zh',
+        logo: 'https://visualgo.net/img/favicon.png',
+      },
+      { name: 'animista', url: 'https://animista.net', logo: 'https://animista.net/favicon.ico' },
       {
         name: 'html',
         url: 'https://htmlreference.io',
@@ -177,11 +207,6 @@ export default [
         name: 'css',
         url: 'https://cssreference.io',
         logo: 'https://cssreference.io/favicons/favicon-32x32.png',
-      },
-      {
-        name: 'picsum',
-        url: 'https://picsum.photos',
-        logo: 'https://picsum.photos/assets/images/favicon/favicon-32x32.png',
       },
       {
         name: 'haikei',
@@ -198,31 +223,31 @@ export default [
   {
     title: '工具',
     items: [
-      {
-        name: 'gaituya',
-        url: 'https://www.gaituya.com',
-        logo: 'https://www.gaituya.com/favicon.ico',
-      },
+      { name: 'tempmail', url: 'https://mail.td', logo: 'https://mail.td/favicon.png' },
       {
         name: 'convertio',
         url: 'https://convertio.co/zh',
         logo: 'https://convertio.co/favicon.ico',
       },
       {
+        name: 'wenshushu',
+        url: 'https://www.wenshushu.cn',
+        logo: 'https://www.wenshushu.cn/favicon.ico',
+      },
+      {
+        name: 'gaituya',
+        url: 'https://www.gaituya.com',
+        logo: 'https://www.gaituya.com/favicon.ico',
+      },
+      {
         name: 'vectorizer',
         url: 'https://www.vectorizer.io',
         logo: 'https://www.vectorizer.io/favicon.ico',
       },
-      { name: 'tempmail', url: 'https://mail.td', logo: 'https://mail.td/favicon.png' },
       {
         name: 'qqxiuzi',
         url: 'https://qqxiuzi.cn/zh/pinyin',
         logo: 'https://qqxiuzi.cn/favicon.ico',
-      },
-      {
-        name: 'wenshushu',
-        url: 'https://www.wenshushu.cn',
-        logo: 'https://www.wenshushu.cn/favicon.ico',
       },
       {
         name: 'hustmail',
@@ -234,6 +259,16 @@ export default [
   {
     title: '装机',
     items: [
+      {
+        name: 'hotpe',
+        url: 'https://www.hotpe.top/',
+        logo: 'https://www.hotpe.top/favicon.ico',
+      },
+      {
+        name: 'expreview',
+        url: 'https://topic.expreview.com/CPU/',
+        logo: 'https://topic.expreview.com/favicon.ico',
+      },
       {
         name: 'dortania',
         url: 'https://dortania.github.io/OpenCore-Install-Guide',
