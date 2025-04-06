@@ -55,6 +55,21 @@ export default [
         url: 'https://www.freepik.com',
         logo: 'https://fps.cdnpk.net/favicons/favicon.ico',
       },
+      {
+        name: 'camerasim',
+        url: 'https://www.camerasim.com',
+        logo: 'https://www.camerasim.com/icon.png',
+      },
+      {
+        name: 'airpano',
+        url: 'https://www.airpano.com',
+        logo: 'https://www.airpano.com/favicon.ico',
+      },
+      {
+        name: 'skyline',
+        url: 'https://www.skylinewebcams.com',
+        logo: 'https://www.skylinewebcams.com/favicon.ico',
+      },
     ],
   },
   {
@@ -115,12 +130,7 @@ export default [
   {
     title: '资源',
     items: [
-      {
-        name: 'alipan',
-        url: 'https://www.pan666.net',
-        logo: 'https://www.pan666.net/favicon.ico',
-      },
-      { name: 'btnull', url: 'https://btnull.org', logo: 'https://btnull.org/favicon.ico' },
+      { name: 'gying', url: 'https://www.gying.in', logo: 'https://www.gying.in/favicon.ico' },
       {
         name: 'cmacked',
         url: 'https://cmacked.com',
@@ -135,6 +145,21 @@ export default [
         name: 'appstorrent',
         url: 'https://appstorrent.ru',
         logo: '',
+      },
+      {
+        name: 'tracemoe',
+        url: 'https://trace.moe/',
+        logo: 'https://trace.moe/favicon.png',
+      },
+    ],
+  },
+  {
+    title: 'AI',
+    items: [
+      {
+        name: 'aibot',
+        url: 'https://ai-bot.cn',
+        logo: 'https://ai-bot.cn/wp-content/uploads/2023/04/ai-bot-baidu-logo.png',
       },
       {
         name: 'zlibrary',
@@ -218,12 +243,27 @@ export default [
         url: 'https://material-foundation.github.io/material-theme-builder',
         logo: '',
       },
+      {
+        name: 'ztype',
+        url: 'https://zty.pe',
+        logo: 'https://zty.pe/media/favicon.png',
+      },
+      {
+        name: 'cybermap',
+        url: 'https://cybermap.kaspersky.com/cn',
+        logo: 'https://cybermap.kaspersky.com/images/Kaspersky_Web_Favicon_256x256.png',
+      },
     ],
   },
   {
     title: '工具',
     items: [
       { name: 'tempmail', url: 'https://mail.td', logo: 'https://mail.td/favicon.png' },
+      {
+        name: 'ifixit',
+        url: 'https://ifixit.com',
+        logo: 'https://www.ifixit.com/favicon.ico',
+      },
       {
         name: 'convertio',
         url: 'https://convertio.co/zh',
@@ -253,6 +293,11 @@ export default [
         name: 'hustmail',
         url: 'http://mail.alumni.hust.edu.cn',
         logo: 'http://mail.alumni.hust.edu.cn/favicon.ico',
+      },
+      {
+        name: 'dapanyuntu',
+        url: 'https://dapanyuntu.com',
+        logo: 'https://dapanyuntu.com/favicon.ico',
       },
     ],
   },
