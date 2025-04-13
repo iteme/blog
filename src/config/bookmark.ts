@@ -106,11 +106,6 @@ export default [
         logo: 'https://civitai.com/favicon.ico',
       },
       {
-        name: 'aibot',
-        url: 'https://ai-bot.cn',
-        logo: 'https://ai-bot.cn/wp-content/uploads/2023/04/ai-bot-baidu-logo.png',
-      },
-      {
         name: 'arthub',
         url: 'https://arthub.ai',
         logo: 'https://arthub.ai/favicon.ico',
