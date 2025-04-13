@@ -76,6 +76,11 @@ export default [
     title: 'AI',
     items: [
       {
+        name: 'aibot',
+        url: 'https://ai-bot.cn',
+        logo: 'https://ai-bot.cn/wp-content/uploads/2023/04/ai-bot-baidu-logo.png',
+      },
+      {
         name: 'deepseek',
         url: 'https://chat.deepseek.com/',
         logo: 'https://cdn.deepseek.com/chat/icon.png',
@@ -150,16 +155,6 @@ export default [
         name: 'tracemoe',
         url: 'https://trace.moe/',
         logo: 'https://trace.moe/favicon.png',
-      },
-    ],
-  },
-  {
-    title: 'AI',
-    items: [
-      {
-        name: 'aibot',
-        url: 'https://ai-bot.cn',
-        logo: 'https://ai-bot.cn/wp-content/uploads/2023/04/ai-bot-baidu-logo.png',
       },
       {
         name: 'zlibrary',
@@ -297,7 +292,7 @@ export default [
       {
         name: 'dapanyuntu',
         url: 'https://dapanyuntu.com',
-        logo: 'https://dapanyuntu.com/favicon.ico',
+        logo: 'https://dapan.com/favicon.ico',
       },
     ],
   },
